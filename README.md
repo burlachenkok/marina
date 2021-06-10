@@ -1,11 +1,11 @@
 # Intoduction
 
-These are experiments for the paper MARINA, which has been accepted for presentation and publication to Thirty-eighth International Conference on Machine Learning (ICML) 2021.
+These are experiments for the paper "MARINA: Faster Non-Convex Distributed Learning with Compression" by Eduard Gorbunov, Konstantin Burlachenko, Zhize Li, Peter Richtarik. The paper is accepted for presentation and publication to Thirty-eighth International Conference on Machine Learning (ICML) 2021.
 
 # Reference to the paper
 https://arxiv.org/abs/2102.07845 - MARINA paper
 
-# Experiemtns for Neural Nets
+# ResNet-18 @ CIFAR100 experiments
 
 ## Prepare environment for experiment with Neural Nets 
 
@@ -35,7 +35,7 @@ After obtaining binary files to generate plots, please use [neural_nets_experime
 python show.py experiment_vr_marina_K_100000.bin experiment_vr_marina_K_500000.bin > info.txt
 ```
 
-# Experiemtns for non-convex loss
+# Experiments for binary classification with non-convex loss
 
 ## Prepare environment for experiment with Neural Nets 
 Please install for your Python shell the following libraries via your package manager: matplotlib, numpy, psutil, mpi4py. The python library [mpi4py](https://mpi4py.readthedocs.io/en/stable/index.html) is an MPI wrapper to real Message Passing Interface(MPI) implementation. If your target OS is from the Windows family, we recommend using standard MPI implementation from Microsoft ([Microsoft-MPI](https://docs.microsoft.com/en-us/message-passing-interface/microsoft-mpi)). If your target OS for the experiment is from Linux/MacOS we recommend using **MPICH** or **openmpi-bin** package. 
