@@ -7,7 +7,7 @@ https://arxiv.org/abs/2102.07845 - MARINA paper
 
 # ResNet-18 @ CIFAR100 experiments
 
-## Prepare environment for experiment with Neural Nets 
+## Prepare environment for the experiments 
 
 ```bash
 conda create -n marina python=3.9.1 -y
@@ -37,7 +37,7 @@ python show.py experiment_vr_marina_K_100000.bin experiment_vr_marina_K_500000.b
 
 # Experiments for binary classification with non-convex loss
 
-## Prepare environment for experiment with Neural Nets 
+## Prepare environment for the experiments
 Please install for your Python shell the following libraries via your package manager: matplotlib, numpy, psutil, mpi4py. The python library [mpi4py](https://mpi4py.readthedocs.io/en/stable/index.html) is an MPI wrapper to real Message Passing Interface(MPI) implementation. If your target OS is from the Windows family, we recommend using standard MPI implementation from Microsoft ([Microsoft-MPI](https://docs.microsoft.com/en-us/message-passing-interface/microsoft-mpi)). If your target OS for the experiment is from Linux/MacOS we recommend using **MPICH** or **openmpi-bin** package. 
 
 ## Description
